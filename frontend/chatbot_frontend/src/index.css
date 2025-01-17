@@ -1,0 +1,118 @@
+:root {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  background-color: #F7FAFC; /* Fondo claro */
+  color: #2D3748; /* Texto principal */
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  padding: 20px; /* Padding para el contenedor principal */
+}
+
+h1 h6{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.chat-input {
+  width: 68%;
+  padding: 12px;
+  margin: 10px 5px;
+  border: 1px solid #E2E8F0;
+  border-radius: 8px;
+  background-color: #F7FAFC;
+  color: #2D3748;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.chat-input:focus {
+  border-color: #4299E1;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.chat-input::placeholder {
+  color: #A0AEC0;
+  font-size: 14px;
+}
+.chat-container {
+  background-color: #FFFFFF; /* Fondo blanco para el contenedor del chat */
+  border-radius: 12px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 100%;
+  max-width: 500px; /* Ancho máximo del contenedor */
+  height: 30%;
+}
+
+.messages {
+  max-height: 400px; /* Altura máxima para el contenedor de mensajes */
+  overflow-y: auto; /* Scroll si hay muchos mensajes */
+  margin-bottom: 10px; /* Espacio entre mensajes y el input */
+}
+
+.user-message {
+  background-color: #E2E8F0; /* Mensajes del usuario */
+  color: #2D3748; /* Texto del usuario */
+  border-radius: 12px;
+  padding: 12px;
+  margin: 10px 0; /* Margen entre burbujas de mensaje */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 0.5s; /* Animación al aparecer */
+}
+
+.bot-message {
+  background-color: #4299E1; /* Mensajes del bot */
+  color: #FFFFFF; /* Texto del bot */
+  border-radius: 12px;
+  padding: 12px;
+  margin: 10px 0; /* Margen entre burbujas de mensaje */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 0.5s; /* Animación al aparecer */
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #3182CE; /* Color del botón */
+  color: #FFFFFF; /* Texto del botón */
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out; /* Transición suave */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra del botón */
+}
+
+button:hover {
+  background-color: #2B6CB0; /* Color más oscuro al hacer hover */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+}
