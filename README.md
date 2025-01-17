@@ -8,7 +8,7 @@ Este proyecto busca simular la experiencia de ordenar sushi a través de un chat
 
 ## Características Destacadas ✨
 
-*   **Pedidos Simplificados:** Permite a los usuarios realizar pedidos de sushi de forma rápida y sencilla a través de comandos intuitivos.
+*   **Pedidos Simplificados:** Permite a los usuarios realizar pedidos de sushi de forma rápida y sencilla a través de comandos intuitivos. (Tiene errores)
 *   **Respuestas Inteligentes:** Responde a preguntas frecuentes sobre el menú, ingredientes, opciones dietéticas y más.
 *   **Interfaz Amigable:** Ofrece una experiencia de usuario clara y concisa.
 
@@ -68,7 +68,7 @@ El chatbot responde a una variedad de comandos y consultas, incluyendo:
     *   Palabras clave: `menu`, `ver menú`, `quiero ver el menú`
     *   Respuesta: Muestra la lista completa de productos con sus precios.
 
-*   **Realizar Pedido:**
+*   **Realizar Pedido: (AUN TIENE FALLOS) **
     *   Palabras clave: `pedido`, `ordenar`, `quiero pedir`
     *   Respuesta: "Por favor, escribe el producto y la cantidad separados por una coma (ej: Nigiri de Salmón, 2)."
 
