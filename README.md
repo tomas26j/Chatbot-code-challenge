@@ -2,8 +2,6 @@
 
 Un chatbot interactivo diseñado para atender pedidos de sushi y responder consultas frecuentes.
 
-![Sushi Chatbot Demo]
-
 Este proyecto busca simular la experiencia de ordenar sushi a través de un chatbot, ofreciendo un menú interactivo y respondiendo preguntas comunes.
 
 ## Características Destacadas ✨
@@ -88,25 +86,18 @@ El chatbot responde a una variedad de comandos y consultas, incluyendo:
 
 *   **Información sobre productos:**
     *   Palabras clave: `pescado`, `atún`
-    *   Respuesta: "Utilizamos pescado fresco de alta calidad, proveniente de [especificar origen si es posible]."
+    *   Respuesta: "Utilizamos pescado fresco de alta calidad"
 
 *   **Opciones dietéticas:**
     *   Palabras clave: `vegetariano`, `vegano`
-    *   Respuesta: "Ofrecemos opciones vegetarianas y veganas, como [ejemplos de platos]."
+    *   Respuesta: "Ofrecemos opciones vegetarianas y veganas"
 
 ## Tecnologías Utilizadas 
 
 *   **Frontend:** React, Redux Toolkit
-*   **Backend:** Node.js, [Añade el framework o librerías del backend como Express.js]
-*   **Testing:** Jest, React Testing Library
-*   **Base de Datos:** [Si usas alguna base de datos, como MongoDB, PostgreSQL, etc., inclúyela aquí]
-
-## Próximas Mejoras 
-
-*   Implementación de un sistema de carrito de compras.
-*   Integración con un sistema de pagos.
-*   Mejora en el procesamiento del lenguaje natural (NLP).
-*   [Añade otras mejoras que tengas planeadas]
+*   **Backend:** Node.js, Express.js
+*   **Testing:** React Testing Library
+*   **Base de Datos:** MongoDB
 
 ## Desarrollado por ‍
 
