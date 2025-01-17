@@ -111,7 +111,3 @@ El chatbot responde a una variedad de comandos y consultas, incluyendo:
 ## Desarrollado por ‍
 
 Tomas Riera
-
-## Licencia 
-
-[Añade la licencia bajo la que se distribuye el proyecto. Por ejemplo, MIT License]
